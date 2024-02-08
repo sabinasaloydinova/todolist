@@ -32,7 +32,68 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  background: #c7b0b0;
+  padding: 15px;
+}
+
+.card {
+
+  width: 400px;
+  height: 30px;
+  border: none;
+  text-align: center;
+  height: fit-content;
+  background-color: rgb(190, 12, 190);
+  color: #000;
+  margin: 0 auto;
+
+
+}
+
+.text {
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+  font-style: italic;
+
+}
+
+.inp {
+  min-width: 300px;
+  min-height: 30px;
+  border: none;
+  text-align: center;
+  box-shadow: 0px 0px 30px 0px;
+
+  border-radius: 10px;
+
+}
+
+.btn {
+  border: none;
+  box-shadow: 0px 0px 30px 0px;
+  border-radius: 15px;
+  width: 70px;
+  height: 30px;
+  margin: 10px;
+}
+
+.box {
+  box-shadow: 0px 0px 30px 0px;
+  max-width: 400px;
+  margin: 0 auto;
+  border: none;
+  color: #000;
+  font-size: 20px;
+  background: white;
 }
